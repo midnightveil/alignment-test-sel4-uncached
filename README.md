@@ -8,6 +8,7 @@ $ make MICROKIT_SDK=/path/to/sdk
 Built with the `arm-gnu-toolchain-12.2.rel1-x86_64-aarch64-none-elf` listed on the Microkit README.
 
 Running on the iMX8MQ_EVK board, the following behaviour:
+(Note this doesn't work on QEMU because it doesn't support alignment faults)
 
 ```
 Booting all finished, dropped to user space
